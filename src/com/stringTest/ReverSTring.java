@@ -13,9 +13,7 @@ public static void main(String[] args) {
 		return str1;
 	}
 	else {
-		 return   str1.charAt(str1.length()-1)
-				 +
-	 revStr(str1.substring(0,str1.length()-1));
+		 return   str1.charAt(str1.length()-1) + revStr(str1.substring(0,str1.length()-1));
 	}
 }
 }
