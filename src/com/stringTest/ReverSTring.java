@@ -2,7 +2,8 @@ package com.stringTest;
 
 public class ReverSTring {
 public static void main(String[] args) {
-	String str="Sachin";
+	String str="India";
+	//calling method
 	System.out.println(revStr(str));
 }
 
